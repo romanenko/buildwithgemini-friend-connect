@@ -2,6 +2,24 @@
 
 A state-aware conversational agent that guides users from intake to interest profile creation, discovers candidate friends using flexible match thresholds, and facilitates connections via unique live communication links featuring custom kawaii interest artwork.
 
+---
+
+## 🌐 Try FriendConnect Live!
+
+Experience the live application deployed on Google Cloud Run:
+
+👉 **[Launch FriendConnect Web App](https://friend-connect-frontend-517434892559.us-east1.run.app/)**
+
+### 📱 Scan QR Code to Open on Mobile
+Scan the QR code below with your phone camera to instantly try FriendConnect on your mobile browser:
+
+| Scan to Try Live |
+| :---: |
+| ![Scan QR Code to Try FriendConnect Live](./assets/app_qr_code.png) |
+| [https://friend-connect-frontend-517434892559.us-east1.run.app/](https://friend-connect-frontend-517434892559.us-east1.run.app/) |
+
+---
+
 ## 🎬 Live Agent Demo & Interactive Flows
 
 ### 1. Agent Intake, A2UI Cards & Match Discovery
