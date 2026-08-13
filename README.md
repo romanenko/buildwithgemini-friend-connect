@@ -2,7 +2,17 @@
 
 A state-aware conversational agent that guides users from intake to interest profile creation, discovers candidate friends using flexible match thresholds, and facilitates connections via unique live communication links featuring custom kawaii interest artwork.
 
-![FriendConnect Agent Demo](./demo.gif)
+## 🎬 Live Agent Demo & Real Generated Artwork
+
+### Interactive Chat & Match Flow
+![FriendConnect Agent Demo](demo.gif)
+
+### Custom Generated Kawaii Match Artwork
+When two users match on a shared passion (e.g. Pickleball or Reading), FriendConnect dynamically generates cute, personalized kawaii illustrations using Imagen & Gemini:
+
+| Shared Passion: Pickleball 🏓 | Shared Passion: Reading & Literature 📚 |
+| :---: | :---: |
+| ![Kawaii Pickleball Match](./assets/kawaii_sample.jpg) | ![Kawaii Reading Match](./assets/kawaii_sample_reading.jpg) |
 
 ---
 
