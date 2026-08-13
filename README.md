@@ -2,12 +2,19 @@
 
 A state-aware conversational agent that guides users from intake to interest profile creation, discovers candidate friends using flexible match thresholds, and facilitates connections via unique live communication links featuring custom kawaii interest artwork.
 
-## 🎬 Live Agent Demo & Real Generated Artwork
+## 🎬 Live Agent Demo & Interactive Flows
 
-### Interactive Chat & Match Flow
+### 1. Agent Intake, A2UI Cards & Match Discovery
 ![FriendConnect Agent Demo](demo.gif)
 
-### Custom Generated Kawaii Match Artwork
+### 2. Live Pair Page & Real-Time Contact Exchange
+When users click the pair link (`/match/<link_id>`), they arrive at a dedicated live page displaying their custom artwork, icebreaker question, and real-time contact exchange form:
+
+![Match Connection Page & Contact Sharing Flow](match_demo.gif)
+
+---
+
+## 🎨 Custom Generated Kawaii Match Artwork
 When two users match on a shared passion (e.g. Pickleball or Reading), FriendConnect dynamically generates cute, personalized kawaii illustrations using Imagen & Gemini:
 
 | Shared Passion: Pickleball 🏓 | Shared Passion: Reading & Literature 📚 |
