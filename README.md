@@ -8,7 +8,7 @@ A state-aware conversational agent that guides users from intake to interest pro
 
 Experience the live application deployed on Google Cloud Run:
 
-👉 **[Launch FriendConnect Web App](https://friend-connect-frontend-517434892559.us-east1.run.app/)**
+👉 **[Launch FriendConnect Web App](https://friendconnect-frontend-twzrq7dhdq-ue.a.run.app/)**
 
 ### 📱 Scan QR Code to Open on Mobile
 Scan the QR code below with your phone camera to instantly try FriendConnect on your mobile browser:
@@ -16,7 +16,7 @@ Scan the QR code below with your phone camera to instantly try FriendConnect on 
 | Scan to Try Live |
 | :---: |
 | ![Scan QR Code to Try FriendConnect Live](./assets/app_qr_code.png) |
-| [https://friend-connect-frontend-517434892559.us-east1.run.app/](https://friend-connect-frontend-517434892559.us-east1.run.app/) |
+| [friendconnect-frontend-twzrq7dhdq-ue.a.run.app](https://friendconnect-frontend-twzrq7dhdq-ue.a.run.app/) |
 
 ---
 
@@ -98,8 +98,8 @@ FriendConnect leverages a modern suite of Google Cloud and Agent Development Kit
 uv sync
 
 # Start frontend proxy locally
-AGENT_ENGINE_RESOURCE_NAME="projects/517434892559/locations/us-east1/reasoningEngines/1114869606192775168" \
-AGENT_DIRECTORY="app" \
+FRIENDCONNECT_PROJECT_ID="$FRIENDCONNECT_PROJECT_ID" \
+AGENT_A2A_BASE_URL="$AGENT_A2A_BASE_URL" \
 PORT=8080 \
 uv run python frontend/main.py
 ```
@@ -111,7 +111,7 @@ gcloud run deploy friend-connect-frontend \
   --source ./frontend \
   --region us-east1 \
   --allow-unauthenticated \
-  --set-env-vars "AGENT_ENGINE_RESOURCE_NAME=projects/517434892559/locations/us-east1/reasoningEngines/1114869606192775168,AGENT_DIRECTORY=app"
+  --set-env-vars "FRIENDCONNECT_PROJECT_ID=$FRIENDCONNECT_PROJECT_ID,AGENT_A2A_BASE_URL=$AGENT_A2A_BASE_URL"
 ```
 
 ---
